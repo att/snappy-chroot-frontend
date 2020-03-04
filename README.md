@@ -8,13 +8,13 @@ Unpack the tar.gz file:
 Before starting two things need to be done:  
 
 1) Fill out the environment variables:  
-  /srv/snappy-mysql/bin/edit_env_vars  
+  /srv/snappyfe/bin/edit_env_vars  
   
 2) Add sources, targets and tenents:  
-  /srv/snappy-mysql/bin/edit_tables  
+  /srv/snappyfe/bin/edit_tables  
 
 
-To start the Frontend service: /srv/snappy-mysql/bin/start [port_number]  
-To stop the Frontend service: /srv/snappy-mysql/bin/stop  
+To start the Frontend service: /srv/snappyfe/bin/start [port_number]  
+To stop the Frontend service: /srv/snappyfe/bin/stop  
 
 By default the Frontend will run on port 8080
